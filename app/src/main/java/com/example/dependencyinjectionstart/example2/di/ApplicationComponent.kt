@@ -6,7 +6,5 @@ import dagger.Component
 @Component(modules = [DataModule::class, DomainModule::class])
 interface ApplicationComponent {
 
-    fun inject(activity: MainActivity) {
-
-    }
+    fun inject(activity: MainActivity)
 }
